@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+{% block content %}
+  <h1>Chapters</h1>
+  
+  <ol start="0">
+      <li style="font-size: 1.25em;">
+        <a href="/chapters/prologue">Prologue</a>
+      </li>
+    {% for chapter in collections.chapter %}
+      <li style="font-size: 1.25em;">
+        <a href="{{ chapter.url }}">{{ chapter.data.title }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+{% endblock %}

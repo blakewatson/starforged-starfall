@@ -1,0 +1,23 @@
+@import url('spacing.css');
+
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ffffffaa;
+    background-color: #191919;
+  }
+}
+
+main {
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  font-weight: normal;
+}
+
+.site-header {
+  margin-block-end: 2rem;
+  padding-block-end: 1rem;
+  border-block-end: 1px solid light-dark(#ccc, #ffffff44);
+}

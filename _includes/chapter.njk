@@ -1,0 +1,9 @@
+{% extends "base.njk" %}
+
+{% block content %}
+  <h1>
+    <span style="display: block; font-size: 0.5em">Chapter {{ page.fileSlug }}</span>
+    {{ title }}
+  </h1>
+  {{ content | safe }}
+{% endblock %}

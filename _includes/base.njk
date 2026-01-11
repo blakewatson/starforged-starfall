@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Starfall: a Starforged story" }}</title>
+
+  {# Sakura CSS - Light theme by default #}
+  <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+
+  {# Sakura CSS - Dark theme for dark mode preference #}
+  <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-vader.css" media="(prefers-color-scheme: dark)">
+
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <p>
+      <strong style="font-size: 1.25em;">
+        <a href="/">Starfall</a>
+      </strong><br>
+      <em>a <a href="https://tomkinpress.com/pages/ironsworn-starforged">Starforged</a> story</em>
+    </p>
+
+    <nav>
+      <a href="/">Home</a> &middot;
+      <a href="/chapters">Chapters</a> &middot;
+      <a href="/lore/roland">Roland</a> &middot;
+      <a href="/lore">Lore</a>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
+  </main>
+
+  <footer>
+    <p>&copy; {{ helpers.year() }} Blake Watson</p>
+  </footer>
+</body>
+</html>
