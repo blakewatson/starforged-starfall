@@ -6,10 +6,10 @@
   <title>{{ title or "Starfall: a Starforged story" }}</title>
 
   {# Sakura CSS - Light theme by default #}
-  <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+  <link rel="stylesheet" href="/css/sakura.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
 
   {# Sakura CSS - Dark theme for dark mode preference #}
-  <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-vader.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="/css/sakura-vader.css" media="(prefers-color-scheme: dark)">
 
   <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -36,8 +36,8 @@
     {% endblock %}
   </main>
 
-  <footer>
-    <p>&copy; {{ helpers.year() }} Blake Watson</p>
+  <footer class="site-footer">
+    <p>A <a href="https://blakewatson.com/">Blake Watson</a> production &middot; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &middot; <a href="https://github.com/blakewatson/starforged-starfall">Source code</a></p>
   </footer>
 </body>
 </html>
