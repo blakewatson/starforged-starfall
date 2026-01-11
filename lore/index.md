@@ -12,11 +12,11 @@ In the course of playing Ironsworn: Starforged, you develop a bit of background 
 I may list more characters here later, but for now I will list some info about the player character Roland and his companion sidekick Astrid.
 
 - [Roland Duval](/lore/roland) (player character)
-- Astrid Ripley (sidekick)
+- [Astrid Ripley](/lore/astrid) (sidekick)
 
 ## Places
 
-When I first create them they will be skeleton files but I will write more as I discover them.
+When I first create them they will be skeleton files but I will write more as I discover and explore them.
 
 - [Sector: Crimson Maw, Outlands](/lore/sectors/crimson-maw)
   - [Settlement: Farpoint Station](/lore/sectors/crimson-maw/farpoint)

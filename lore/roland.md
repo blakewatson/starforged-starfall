@@ -7,6 +7,8 @@ title: Roland Duval
 
 This is the player character. Early thirties, short dark brown hair. Average build, more finesse than brawn. Short scruffy facial hair. Has a scar on his cheek.
 
+**Edge:** 2 &middot; **Heart:** 3 &middot; **Iron:** 1 &middot; **Shadow:** 1 &middot; **Wits:** 2
+
 ## Backstory
 
 My small outpost town, Rhiannon Port, was destroyed when it got caught in the middle of a battle between factions fighting a war for power. The townspeople were innocent, neutral bystanders. But their town was a geographically strategic location and the more ruthless of the warring factions decided it was prudent to destroy the town rather than risk it falling into enemy hands.
@@ -17,7 +19,7 @@ As I had no living relatives on my home world, I recovered the artifact and took
 
 ## Background Vow
 
-I vow to find my only living relative, Argus Duvall.
+I vow to find my only living relative, Argus Duval.
 
 ## Paths
 

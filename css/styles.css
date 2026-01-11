@@ -21,3 +21,13 @@ main {
   padding-block-end: 1rem;
   border-block-end: 1px solid light-dark(#ccc, #ffffff44);
 }
+
+.prose {
+  p {
+    margin-block: 0;
+  }
+
+  p + p {
+    text-indent: 1.75em;
+  }
+}
