@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or "Starfall: a Starforged story" }}</title>
 
+  {# Canonical URL #}
+  <link rel="canonical" href="https://starforged.blakewatson.com{{ page.url }}">
+
+  {# Open Graph meta tags #}
+  <meta property="og:site_name" content="Starfall">
+  <meta property="og:title" content="{{ title or 'Starfall: a Starforged story' }}">
+  {% if description %}
+  <meta property="og:description" content="{{ description }}">
+  <meta name="description" content="{{ description }}">
+  {% endif %}
+  <meta property="og:image" content="https://starforged.blakewatson.com{{ image or '/images/starfield01.png' }}">
+  <meta property="og:url" content="https://starforged.blakewatson.com{{ page.url }}">
+  <meta property="og:type" content="{% if layout == 'chapter.njk' %}article{% else %}website{% endif %}">
+
   {# Sakura CSS - Light theme by default #}
   <link rel="stylesheet" href="/css/sakura.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
 
