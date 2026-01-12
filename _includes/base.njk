@@ -14,30 +14,32 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <p>
-      <strong style="font-size: 1.25em;">
-        <a href="/">Starfall</a>
-      </strong><br>
-      <em>a <a href="https://tomkinpress.com/pages/ironsworn-starforged">Starforged</a> story</em>
-    </p>
+  <div class="page">
+    <header class="site-header">
+      <p>
+        <strong style="font-size: 1.25em;">
+          <a href="/">Starfall</a>
+        </strong><br>
+        <em>a <a href="https://tomkinpress.com/pages/ironsworn-starforged">Starforged</a> story</em>
+      </p>
 
-    <nav>
-      <a href="/">Home</a> &middot;
-      <a href="/chapters">Chapters</a> &middot;
-      <a href="/lore/roland">Roland</a> &middot;
-      <a href="/lore">Lore</a>
-    </nav>
-  </header>
+      <nav>
+        <a href="/">Home</a> &middot;
+        <a href="/chapters">Chapters</a> &middot;
+        <a href="/lore/roland">Roland</a> &middot;
+        <a href="/lore">Lore</a>
+      </nav>
+    </header>
 
-  <main>
-    {% block content %}
-      {{ content | safe }}
-    {% endblock %}
-  </main>
+    <main>
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+    </main>
 
-  <footer class="site-footer">
-    <p>A <a href="https://blakewatson.com/">Blake Watson</a> production &middot; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &middot; <a href="https://github.com/blakewatson/starforged-starfall">Source code</a></p>
-  </footer>
+    <footer class="site-footer">
+      <p>A <a href="https://blakewatson.com/">Blake Watson</a> production &middot; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> &middot; <a href="https://github.com/blakewatson/starforged-starfall">Source code</a></p>
+    </footer>
+  </div>
 </body>
 </html>
