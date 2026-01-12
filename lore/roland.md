@@ -5,7 +5,7 @@ title: Roland Duval
 
 # Roland Duval
 
-This is the player character. Early thirties, short dark brown hair. Average build, more finesse than brawn. Short scruffy facial hair. Has a scar on his cheek.
+This is the player character. Early thirties, short dark brown hair. Average build, more finesse than brawn. Short scruffy facial hair. Has a scar on his cheek. Callsign: Link.
 
 **Edge:** 2 &middot; **Heart:** 3 &middot; **Iron:** 1 &middot; **Shadow:** 1 &middot; **Wits:** 2
 
