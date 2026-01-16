@@ -8,5 +8,32 @@
     </h1>
     
     {{ content | safe }}
+    {% set previousPost = collections.chapter | getPreviousCollectionItem %}
+    {% set nextPost = collections.chapter | getNextCollectionItem %}
+
+    {% if previousPost or nextPost %}
+      <nav
+        class="mt-xl mb-xl"
+        style="display: flex; flex-direction: column; gap: 0.5rem;"
+      >
+        {% if nextPost %}
+          <p>
+            <strong><span role="presentation">&rarr;</span> Next chapter:</strong>
+            <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+          </p>
+        {% endif %}
+
+        {% if previousPost %}
+          <p>
+            <strong><span role="presentation">&larr;</span> Previous chapter:</strong>
+            <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+          </p>
+        {% endif %}
+
+        <p>
+          <a href="/chapters/">Chapters list</a>
+        </p>
+      </nav>
+    {% endif %}
   </article>
 {% endblock %}
